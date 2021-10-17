@@ -1,0 +1,251 @@
+@import url(/font/Georgia.ttf);
+
+* {
+  font-family: Georgia;
+}
+#header_area {
+  border-top: 8px solid #40aed7;
+  width: 100%;
+  padding: 25px 0;
+}
+#header_area .container {
+  border-bottom: 2px solid #d6d6d6;
+}
+#header_area img {
+  margin-top: 30px;
+}
+#header_area .search {
+  float: right;
+  text-align: right;
+}
+#header_area #main_menu {
+  width: 100%;
+  clear: both;
+}
+#header_area #main_menu ul#nav {
+  list-style: none;
+  text-align: right;
+}
+#header_area #main_menu ul li {
+  display: inline-block;
+}
+#header_area #main_menu a {
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #666666;
+  text-decoration: none;
+}
+#header_area #main_menu a:hover {
+  color: #0d96c9;
+}
+#header_area .search {
+  margin-bottom: 20px;
+}
+#header_area .search input[type="text"] {
+  border: 0;
+  color: #808080;
+  background-color: #e9e9e9;
+  padding: 10px;
+  border-radius: 8px;
+  width: 245px;
+  font-size: 14px;
+}
+#header_area .search input[type="submit"] {
+  border: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  background-color: #40aed7;
+  padding: 10px;
+  border-radius: 8px;
+}
+#header_area .search input[type="submit"]:hover {
+  background-color: #004d6a;
+  background: #004d6a;
+  transition: .3s;
+  
+}
+#banner {
+  padding: 50px 0;
+}
+#banner img {
+  /* display: inline-block; */
+  margin-right: 30px;
+  float: left;
+}
+#banner h1 {
+    margin-top: 115px;
+  color: #333333;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+#banner p {
+  color: #979797;
+  font-size: 14px;
+}
+#banner a {
+  color: #fff;
+  background: #40aed7;
+  font-size: 12px;
+  text-align: center;
+  width: 185px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+}
+#banner a:hover{
+  background: #004d6a;
+  transition: .3s;
+}
+#gallery{
+  padding-bottom: 50px;
+  border-bottom: 2px solid gray;
+}
+#gallery #text{
+    text-align: center;
+    color: 7a7a7a;
+}
+#gallery #text p{
+    font-style: italic;
+}
+#gallery #pictures img{
+    padding-bottom: 50px;
+
+}
+#gallery #text a{
+  background: #40aed7;
+  padding: 15px 100px ;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+}
+#gallery #text a:hover{
+  background: #004d6a;
+  transition: .3s;
+}
+#footer_area{
+  background-color: #1b1b1b;
+  border-top: 2px solid white;
+}
+#footer_area h2{
+  font-size: 16px;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+}
+#footer_area h3{
+  font-size: 16px;
+  color: #40aed7;
+}
+#footer_area p{
+  color: #979797;
+  font-size: 13px;
+}
+#footer_area h4{
+  font-size: 16px;
+  color: #979797;
+  padding-bottom: 10px;
+}
+#footer_area input[type="text"]{
+  color: #979797;
+  background-color: #1b1b1b;
+  border: 1px solid #161616;
+  font-size: 15px;
+  padding: 11px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+#footer_area input[type="submit"]{
+  color: #40aed7;
+  background-color: #1b1b1b;
+  border: 1px solid #161616;
+  font-size: 15px;
+  padding: 11px;
+  border-radius: 5px;
+}
+.icons i{
+  width: 45px;
+}
+.fa-feed{
+  color: #ff6600;
+}
+.fa-facebook{
+  color: #263e6f;
+}
+.fa-twitter{
+  color: #5296b9;
+}
+.fa-lin{
+  color: #0080ab;
+}
+
+#copyright{
+  background: #161616;
+  height: 51px;
+  border: 2px solid #161616;
+ 
+}
+
+
+#copyright #first h2{
+  text-align: left;
+  font-size: 15px;
+  margin-top: 14px;
+  color: white;
+}
+
+#copyright #second h2{
+  text-align: right;
+  font-size: 15px;
+  margin-top: 14px;
+  color: white;
+}
+
+
+@media only screen and (min-width:200px) and (max-width:700px) {
+  #header_area .col-md-2 {
+    text-align: center;
+  }
+  #header_area .search {
+    float: none;
+    text-align: center;
+    margin-top: 20px;
+  }
+  #header_area #main_menu ul#nav {
+    list-style: none;
+    text-align: center;
+  }
+  #banner img{
+    width: auto;
+    max-width: 100%;
+  }
+  #gallery #pictures img{
+    padding-right: 10px;
+    padding-left: 10px;
+    align-items: center;
+  }
+  #gallery .col-md-4{
+    margin-left: 100px;
+  }
+  #copyright #first h2{
+    text-align: left;
+    font-size: 5px;
+    float: left;
+    margin-top: 14px;
+    color: white;
+  }
+  
+  #copyright #second h2{
+    text-align: right;
+    font-size: 5px;
+   
+    margin-top: 14px;
+    color: white;
+  }
+  
+}
